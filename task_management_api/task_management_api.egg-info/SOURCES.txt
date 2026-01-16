@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+app/config.py
+app/database.py
+app/main.py
+app/crud/task.py
+app/models/task.py
+app/routes/tasks.py
+task_management_api.egg-info/PKG-INFO
+task_management_api.egg-info/SOURCES.txt
+task_management_api.egg-info/dependency_links.txt
+task_management_api.egg-info/requires.txt
+task_management_api.egg-info/top_level.txt
+tests/test_main.py
+tests/test_tasks.py
