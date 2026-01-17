@@ -1,4 +1,4 @@
-#!/bin/bash
+`#!/bin/bash
 
 # FastAPI Project Generator Script
 # Creates a complete FastAPI project structure with customizable options
@@ -455,9 +455,9 @@ cat > README.md << EOF
 
 A FastAPI application generated with FastAPI Builder skill.
 
-## Setup with uv (Required)
+## Setup with uv (Recommended)
 
-uv is an extremely fast Python package manager written in Rust. This project is configured to use uv for dependency management.
+uv is an extremely fast Python package manager written in Rust. It's the recommended way to manage this project.
 
 1. Install uv (if not already installed):
 \`\`\`bash
@@ -472,6 +472,26 @@ uv sync
 3. Run the application:
 \`\`\`bash
 uv run uvicorn app.main:app --reload
+\`\`\`
+
+## Alternative Setup with pip
+
+If you prefer to use pip instead of uv:
+
+1. Create a virtual environment:
+\`\`\`bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
+
+3. Run the application:
+\`\`\`bash
+uvicorn app.main:app --reload
 \`\`\`
 
 ## Development Commands
@@ -566,8 +586,8 @@ echo "1. cd $PROJECT_NAME"
 if [[ "$DATABASE_TYPE" != "none" ]]; then
     echo "2. Set up your database (if using SQLAlchemy, run: alembic init -c alembic/alembic.ini alembic)"
 fi
-echo "3. Install dependencies: uv sync"
-echo "4. Run the application: uv run uvicorn app.main:app --reload"
+echo "3. Install dependencies: pip install -r requirements.txt"
+echo "4. Run the application: uvicorn app.main:app --reload"
 echo ""
 echo "The application will be available at http://localhost:8000"
 echo "API documentation at http://localhost:8000/docs"
