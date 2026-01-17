@@ -1,21 +1,38 @@
-# Hands-on Skills
+# AI-400 Course - Project-1: Task Management API
 
-A collection of hands-on skills for students to explore and practice when learning the Skills concept in Claude Code. These examples accompany **Lesson 04 of Chapter 5** in the AI Native Development book.
+This repository contains the Task Management API project for the AI-400 Course. The project implements a complete Task Management system using FastAPI and SQLModel with comprehensive CRUD operations and modern Python tooling.
 
-**Reading Material:** [Claude Code Features and Workflows](https://ai-native.panaversity.org/docs/AI-Tool-Landscape/claude-code-features-and-workflows)
+## 📋 Project Overview
 
-## Skills
+The Task Management API is a complete RESTful API built with FastAPI and SQLModel that provides full CRUD operations for managing tasks. The project demonstrates modern Python development practices including RESTful API design, database modeling with SQLModel, input validation with Pydantic, and comprehensive testing with pytest. For detailed documentation, see the `task_management_api/README.md` file.
+
+## 🚀 Features
+
+- Full CRUD operations for tasks
+- RESTful API design with FastAPI
+- Input validation with Pydantic
+- SQLModel for database modeling
+- Comprehensive test suite with pytest
+- Interactive API documentation with Swagger/OpenAPI
+
+## 📁 Project Structure
+
+```
+AI-400-Course/
+├── Project-1/
+│   ├── task_management_api/     # Main application code
+│   └── README.md                # This file (project overview)
+```
+
+## 🛠️ Claude Code Skills Used
+
+During the development of this project, the following Claude Code skills were utilized:
 
 | Skill | Purpose |
 |-------|---------|
-| **browsing-with-playwright** | Browser automation using Playwright MCP. Navigate websites, fill forms, click elements, take screenshots, and extract data. Use when tasks require web browsing, form submission, web scraping, UI testing, or any browser interaction |
-| **context7-efficient** | Token-efficient library documentation fetcher for various programming languages, providing code examples, API references, and best practices. |
-| **doc-coauthoring** | Guide users through a structured workflow for co-authoring documentation including proposals, technical specs, decision docs, and similar structured content |
-| **docx** | Comprehensive Word document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction |
-| **internal-comms** | Resources to help write internal communications including 3P updates, company newsletters, FAQs, status reports, leadership updates, and incident reports |
-| **pdf** | PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms |
-| **pptx** | PowerPoint presentation creation, editing, and analysis including layouts, speaker notes, comments, and visual design |
-| **skill-creator** | Guide for creating effective skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations |
-| **skill-validator** | Validate any skill against production-level quality criteria. 7 weighted criteria, 0-100 scoring, actionable feedback with prioritized recommendations |
-| **theme-factory** | Toolkit for styling artifacts (slides, docs, reports, HTML) with 10 pre-set professional themes or custom on-the-fly theme generation |
-| **xlsx** | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization |
+| **fastapi-builder** | Comprehensive FastAPI application generator with project structure, standard endpoints, database integration, authentication, and testing frameworks |
+| **product_seo_specialist** | SEO optimization specialist for handmade leather shoe product listings |
+| **sqlmodel-db** | Comprehensive SQLModel database design and management for FastAPI applications |
+| **test-driven-development** | Comprehensive Test-Driven Development (TDD) workflow guidance with pytest |
+
+For detailed implementation and API documentation, refer to the `task_management_api/README.md` file in this repository.
